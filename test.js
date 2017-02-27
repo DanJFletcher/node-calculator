@@ -6,7 +6,7 @@ describe('Math', function () {
     describe('#add()', function () {
         it('should add two numbers', function () {
             assert.equal(math.add(1, 2), 3);
-        })
+        });
     });
 
     describe('#sub()', function () {
@@ -24,6 +24,9 @@ describe('Math', function () {
     describe('#div()', function () {
         it('should divide two numbers', function () {
             assert.equal(math.div(6, 2), 3);
+        });
+        it('should return Infinity if divide by zero', function () {
+            assert.equal(math.div(5, 0), Math.Infinity);
         });
     });
 });
