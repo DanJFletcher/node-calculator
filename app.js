@@ -1,11 +1,11 @@
-var math = require('./math');
-var colors = require('colors');
+const math = require('./math');
+const colors = require('colors');
 
-var cmd = process.argv[2];
-var a = Number(process.argv[3]);
-var b = Number(process.argv[4]);
-var log = process.argv[5];
-var result = '';
+const cmd = process.argv[2];
+const a = Number(process.argv[3]);
+const b = Number(process.argv[4]);
+const log = process.argv[5];
+let result = '';
 
 
 

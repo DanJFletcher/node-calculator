@@ -1,15 +1,15 @@
-module.exports.add = function(a, b) {
+exports.add = function(a, b) {
     return a + b;
 }
 
-module.exports.sub = function(a, b) {
+exports.sub = function(a, b) {
     return a - b;
 }
 
-module.exports.mult = function(a, b) {
+exports.mult = function(a, b) {
     return a * b;
 }
 
-module.exports.div = function(a, b) {
+exports.div = function(a, b) {
     return a / b;
 }
